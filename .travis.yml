@@ -60,6 +60,7 @@ before_install:
   # Setup
   - cd $GOPATH/src/github.com/interconnectedcloud/qdr-operator
   - dep ensure -v && dep status
+  - cd /home/travis/gopath/bin
 
   # Install 
 
